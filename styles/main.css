@@ -55,6 +55,7 @@ a.link:visited {
     color: var(--main-text-color);
     font-size: 30px;
     font-weight: 800;
+    text-align: center;
 }
 
 @media all and (min-width:768px) {
