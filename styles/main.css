@@ -37,6 +37,11 @@
 .link {
     color: var(--menu-text-color);
     text-decoration: none;
+    transition: all .2s;
+}
+
+a.link:hover {
+    transform: scale(1.1);
 }
 
 a.link:visited {
