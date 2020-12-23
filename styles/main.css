@@ -32,7 +32,16 @@
     font-size: 16px;
     font-family: var(--font);
     padding-bottom: 13px;
+}
+
+.link {
     color: var(--menu-text-color);
+    text-decoration: none;
+}
+
+a.link:visited {
+    color: var(--menu-text-color);
+    text-decoration: none;
 }
 
 .main {
