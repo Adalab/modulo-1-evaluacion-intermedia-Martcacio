@@ -88,11 +88,14 @@ a.menu-link:visited {
     }
     .link-logo {
         padding-left: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
     .main-text {
         font-size: 40px;
     }
     .nav {
         padding-right: 30px;
+        padding-bottom: 0px;
     }
 }
