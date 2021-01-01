@@ -23,9 +23,14 @@
     width: 100%;
 }
 
-.logo {
+.link-logo {
     width: 155px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.blog {
+    padding-right: 20px;
 }
 
 .nav {
@@ -39,6 +44,7 @@
 
 .menu-item {
     display: inline-block;
+    justify-content: center;
     text-decoration: none;
 }
 
@@ -77,15 +83,15 @@ a.menu-link:visited {
     .header {
         justify-content: space-between;
         flex-direction: row;
-        padding: 20px 20px 20px 30px;
+        padding: 20px 30px 20px 30px;
     }
-    .logo {
-        padding: 20px 30px;
+    .link-logo {
+        padding: 0px;
     }
     .main-text {
         font-size: 40px;
     }
     .nav {
-        padding: 30px
+        padding: 0px
     }
 }
