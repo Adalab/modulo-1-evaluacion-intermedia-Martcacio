@@ -42,6 +42,7 @@
 }
 
 .menu-link {
+    display: block;
     color: var(--menu-text-color);
     text-decoration: none;
     transition: all .2s;
